@@ -59,7 +59,7 @@
   display: flex;
   gap: 30px;
   width: max-content;
-  animation: quoteScroll 20s linear infinite;
+  animation: quoteScroll 30s linear infinite;
 }
 .topics-wrapper {
   overflow: hidden;

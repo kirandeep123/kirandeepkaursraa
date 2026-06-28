@@ -29,7 +29,7 @@
   gap: 30px;
   width: max-content;
 
-  animation: quoteScroll 20s linear infinite;
+  animation: quoteScroll 30s linear infinite;
 }
 
 .quotes-track img {
