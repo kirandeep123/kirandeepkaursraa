@@ -1,0 +1,64 @@
+.quotes-section {
+  padding: 90px 8%;
+  background: #f8f4ef;
+  overflow: hidden;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-heading h2 {
+  font-size: 3rem;
+  color: #3d2a24;
+  margin-bottom: 15px;
+}
+
+.section-heading p {
+  color: #666;
+  font-size: 1.05rem;
+}
+
+.quotes-wrapper {
+  overflow: hidden;
+}
+
+.quotes-track {
+  display: flex;
+  gap: 30px;
+  width: max-content;
+
+  animation: quoteScroll 20s linear infinite;
+}
+
+.quotes-track img {
+  width: 260px;
+
+  border-radius: 18px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+
+  transition:
+    transform 0.4s ease,
+    filter 0.4s ease;
+  filter: grayscale(20%);
+}
+
+.quotes-track img:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+@keyframes quoteScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+.quotes-wrapper:hover .quotes-track {
+  animation-play-state: paused;
+}
