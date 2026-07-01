@@ -25,12 +25,12 @@
 
 .about h2 span {
   display: block;
-  color: #5e7a65;
+  color: var(--yellow);
 }
 
 .about p {
   line-height: 1.9;
-  color: #555;
+  color: var(--white);
   margin-bottom: 22px;
 }
 
@@ -42,12 +42,12 @@
 
 .about-highlights h3 {
   font-size: 42px;
-  color: #5e7a65;
+  color: var(--yellow);
 }
 
 .about-highlights span {
   font-size: 14px;
-  color: #777;
+  color: var(--white);
 }
 
 @media (max-width: 900px) {

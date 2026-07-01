@@ -25,7 +25,7 @@
 }
 .hero h1 span {
   display: block;
-  color: #5e7a65;
+  color: var(--yellow);
   font-size: 0.6em;
 }
 .hero-right {
@@ -91,7 +91,7 @@
 
   font-size: 3rem;
 
-  color: #2f3431;
+  color: var(--white);
 
   font-weight: 500;
 
@@ -104,7 +104,7 @@
 
   line-height: 1.8;
 
-  color: #555;
+  color: var(--white);
 
   max-width: 540px;
 }
@@ -115,9 +115,10 @@
 
   padding: 15px 34px;
 
-  background: #5e7a65;
+  background: var(--yellow);
+  font-weight: 800;
 
-  color: white;
+  color: var(--deep-teal);
 
   text-decoration: none;
 
@@ -126,7 +127,5 @@
   transition: 0.3s;
 }
 .hero-btn:hover {
-  background: #48614f;
-
   transform: translateY(-2px);
 }

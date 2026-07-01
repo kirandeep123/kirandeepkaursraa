@@ -1,6 +1,6 @@
 .quotes-section {
   padding: 90px 8%;
-  background: #f8f4ef;
+  background: var(--yellow);
   overflow: hidden;
 }
 
@@ -11,7 +11,7 @@
 
 .section-heading h2 {
   font-size: 3rem;
-  color: #3d2a24;
+  color: var(--deep-teal);
   margin-bottom: 15px;
 }
 

@@ -1,6 +1,6 @@
 .topics {
   padding: 120px 0;
-  background: #fdfbf7;
+  background: var(--deep-teal);
 }
 
 .topics-heading {
@@ -14,11 +14,11 @@
 
 .topics h2 span {
   display: block;
-  color: #5e7a65;
+  color: var(--yellow);
 }
 
 .topic-card {
-  background: white;
+  background: var(--white);
   padding: 45px 35px;
   width: 340px;
   min-height: 340px;
@@ -41,7 +41,7 @@
 
 .topic-card i {
   font-size: 34px;
-  color: #5e7a65;
+  color: var(--deep-teal);
   margin-bottom: 25px;
 }
 
@@ -49,6 +49,8 @@
   margin-bottom: 15px;
   line-height: 1.2;
   font-size: 1.8rem;
+  color: var(--deep-teal);
+  font-weight: 800;
 }
 
 .topic-card p {

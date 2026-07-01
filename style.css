@@ -1,3 +1,10 @@
+:root {
+  --deep-teal: #0f3f3a;
+  --yellow: #f5b400;
+  --white: #ffffff;
+  --gold: #ffd966;
+  --grey: #c2c8c6;
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +18,9 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 
-  background: #f8f5f0;
+  background: var(--deep-teal);
 
-  color: #2f3431;
+  color: var(--white);
 
   overflow-x: hidden;
 }
@@ -65,6 +72,6 @@ h3 {
 .section-divider span {
   width: 80px;
   height: 2px;
-  background: #c5a76a;
+  background: var(--grey);
   border-radius: 5px;
 }

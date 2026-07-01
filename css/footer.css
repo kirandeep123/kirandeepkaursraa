@@ -1,5 +1,5 @@
 footer {
-  background: #2f3431;
+  background: var(--deep-teal);
 
   color: white;
 
@@ -13,7 +13,7 @@ footer {
   margin-bottom: 20px;
 }
 .footer-brand p {
-  color: #cfcfcf;
+  color: var(--yellow);
 
   font-size: 1.1rem;
 
@@ -72,7 +72,7 @@ footer {
   flex-wrap: wrap;
 }
 .footer-links a {
-  color: white;
+  color: var(--yellow);
 
   text-decoration: none;
 

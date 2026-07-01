@@ -82,7 +82,7 @@
 
     cursor: pointer;
 
-    color: #2f3431;
+    color: var(--white);
   }
 
   .navbar ul {

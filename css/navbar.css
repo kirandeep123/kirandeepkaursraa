@@ -33,3 +33,33 @@
 .menu-btn {
   display: none;
 }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 55px;
+  width: auto;
+  display: block;
+}
+
+.logo span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--white); /* or #f8f5f0 if you're not using CSS variables */
+  letter-spacing: 0.5px;
+}
+
+.logo-container:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.logo-container:hover span {
+  color: #6c8a72;
+  transition: color 0.3s ease;
+}
