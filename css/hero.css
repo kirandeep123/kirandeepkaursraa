@@ -5,7 +5,7 @@
 
   text-transform: uppercase;
 
-  color: #777;
+  color: var(--yellow);
 
   margin-bottom: 20px;
 

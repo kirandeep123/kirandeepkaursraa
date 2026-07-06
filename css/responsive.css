@@ -100,7 +100,8 @@
 
     width: 100%;
 
-    background: #f8f5f0;
+    background: var(--yellow);
+    color: var(--deep-teal);
 
     flex-direction: column;
 
